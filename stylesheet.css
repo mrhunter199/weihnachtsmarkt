@@ -1,0 +1,101 @@
+body,html {
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    height: 100%;
+}  
+
+canvas{
+    position:absolute;top:0;left:0
+ }
+
+.center {
+    
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+    /* The hero image */
+    .hero-image {
+      /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+      background-image: url("header_image.jpg");
+    
+      /* Set a specific height */
+      height: 30%;
+    
+      /* Position and center the image to scale nicely on all screens */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    
+    /* Place text in the middle of the image */
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding-left: 2%;
+      padding-right: 2%;
+      border-radius: 10px;
+    }
+
+h3 {
+    color: white;
+    text-align: center;
+    }
+  
+button {
+    background-color: rgb(255, 184, 30);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+
+.result {
+    padding: 10px;
+    border-style: solid;
+    border-color:  rgb(255, 184, 30);
+    border-width: 1px;
+    border-radius: 10px;
+    
+    }
+
+.button {
+    padding-top: 20px;
+    }
+
+p {
+    color: white;
+    }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: rgb(255, 184, 30);
+    padding-bottom: 2%;
+    }
+
+.main {
+    position: sticky;
+    padding: 20px;
+    padding-top: 30px;
+    
+    }
+.copyright {
+    color: white;
+    text-decoration: none;
+}
